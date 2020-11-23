@@ -3,66 +3,66 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-}
-
-html,
-body,
-#root {
+  }
+  
+  html,
+  body,
+  #root {
     height: 100vh;
     width: 100vw;
-}
-
-body {
+  }
+  
+  body {
     background-color: #ecf0f1;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: #2c3e50;
     text-transform: uppercase;
     padding-top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #root{
     text-align: center;
-}
-
-.buttons {
+  }
+  
+  .buttons {
     display: none;
-}
-
-@media only screen and (max-width: 1023px) {
+  }
+  
+  @media only screen and (max-width: 1023px) {
     canvas {
-        height: 350px;
-        width: 350px;
-        margin-top: 5px;
+      height: 350px;
+      width: 350px;
+      margin-top: 5px;
     }
-
-    h1 {
-        display: none;
+  
+    h1{
+      display: none;
     }
     .buttons{
-        display: block;
-        margin-top: 20px;
-        width: 100vw;
+      display: block;
+      margin-top: 20px;
+      width: 100vw;
     }
-
+  
     button{
-        width: 80px;
-        height: 50px;
-        border-radius: 5px;
-        border: none;
-        color: #ecf0f1;
-        background-color: #16a085;
+      width: 80px;
+      height: 50px;
+      border-radius: 5px;
+      border: none;
+      color: #ecf0f1;
+      background-color: #16a085;
     }
-
-    .div-slide {
-        margin: 2px auto;
-        width: 250px;
-        display: flex;
-        justify-content: space-between;
+  
+    .div-side {
+      margin: 2px auto;
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
     }
     #restart {
-        display: none;
+      display: none;
     }
-}
+  }
